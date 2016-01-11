@@ -52,18 +52,20 @@ android {
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
     }
-
     android {
         lintOptions {
             abortOnError false
         }
     }
-
     productFlavors {
     }
-
     packagingOptions {
         exclude 'META-INF/LICENSE.txt'
+    }
+    buildTypes {
+        debug {
+            debuggable false
+        }
     }
 }
 

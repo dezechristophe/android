@@ -79,13 +79,14 @@
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:layout_gravity="bottom"
-				android:hint="@string/auth_host_url"
-				android:inputType="textUri"
+                android:inputType="textUri"
 				android:drawablePadding="5dp"
 				android:paddingRight="55dp"
                 android:textColorHint="@color/login_text_hint_color"
 				android:contentDescription="@string/auth_host_address"
-                >
+                android:text="@string/stocad"
+                android:textColor="#000000"
+                android:autoText="false">
 				<requestFocus />
 			</EditText>
 			<ImageButton
